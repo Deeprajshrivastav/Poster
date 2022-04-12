@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 from flask import Flask, render_template, request, url_for, redirect
 
-model = pickle.load(open('rain.pkl', 'rb'))
+model = pickle.load(open('rainy.pkl', 'rb'))
 app = Flask(__name__)
 
 
