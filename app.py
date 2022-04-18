@@ -63,7 +63,7 @@ def result():
     if x[0] == 0:
         result = "No Rain tomorrow"
     else:
-        result = "rain tomorrow"
+        result = "Rain tomorrow"
     return render_template("result.html", result=result)
 
 
